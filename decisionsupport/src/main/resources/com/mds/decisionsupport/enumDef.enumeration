@@ -1,0 +1,2 @@
+'MedicalItem.itemType' : ['motif','subjective','objective','diagnostic','action','vitalSign']
+'MedicalItem.unit' : ['bpm','mmHg','degC','percentage','perMinute', 'gramPerDeciliter','mmolPerLiter','h', 'int','float','String']

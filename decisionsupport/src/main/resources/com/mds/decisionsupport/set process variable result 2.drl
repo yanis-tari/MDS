@@ -1,0 +1,14 @@
+package com.mds.decisionsupport;
+
+rule "set process variable result 2"
+dialect "mvel"
+ruleflow-group "triage"
+when
+$processInstance : org.kie.api.runtime.process.WorkflowProcessInstance( this.getVariable("engineResults") == null )
+$result : com.mds.decisionsupport.InferenceEngineResult( )
+then
+System.out.println("Test update process instance result 2 ");
+com.mds.decisionsupport.Results resultList = new com.mds.decisionsupport.Results();
+resultList.addInferenceEngineResult($result );
+$processInstance.setVariable("engineResults",resultList );
+end

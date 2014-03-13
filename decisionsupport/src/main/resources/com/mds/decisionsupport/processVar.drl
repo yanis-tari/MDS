@@ -1,0 +1,19 @@
+package com.mds.decisionsupport;
+
+rule "test rule"
+dialect "mvel"
+ruleflow-group "triageBof"
+when
+$processInstance : org.kie.api.runtime.process.WorkflowProcessInstance( )
+$medicalRecord : com.mds.decisionsupport.MedicalRecord($miList :  medicalItems) from (com.mds.decisionsupport.MedicalRecord) $processInstance.getVariable("mr")
+$mi : com.mds.decisionsupport.MedicalItem($bioportalLabel : bioportalItem.getPrefLabel() ) from $miList
+
+then
+System.out.println("Test update process instance ...  ");
+com.mds.decisionsupport.InferenceEngineResult result = new com.mds.decisionsupport.InferenceEngineResult();
+result.setRequest("triage"); 
+result.setValue("3");
+result.setMedicalRecord($medicalRecord);
+$processInstance.setVariable("engineResult",result);
+
+end

@@ -1,0 +1,67 @@
+
+<form id="351325692">
+<property name="subject" value=""/>
+<property name="name" value="Line_MedicalItem.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="4" name="mi_snomedCT" type="MultipleSubform" id="1440891007">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;snomedCT (mi)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="inputBinding" value="mi_in/snomedCT"/>
+<property name="outputBinding" value="mi_out/snomedCT"/>
+<property name="defaultSubform" value="SnomedCT.form"/>
+<property name="previewSubform" value="SnomedCT.form"/>
+<property name="tableSubform" value="SnomedCT.form"/>
+<property name="newItemText" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="addItemText" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="cancelItemText" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="deleteItems" value="false"/>
+<property name="updateItems" value="false"/>
+<property name="visualizeItems" value="false"/>
+<property name="hideCreateItem" value="false"/>
+<property name="expanded" value="false"/>
+<property name="enableTableEnterData" value="false"/>
+<property name="fieldClass" value="java.util.List"/>
+</field>
+<field position="3" name="mi_date" type="InputDate" id="563752296">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;date (mi)quot;"/>
+<property name="inputBinding" value="mi_in/date"/>
+<property name="outputBinding" value="mi_out/date"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="2" name="mi_unit" type="InputText" id="592959897">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;unit (mi)quot;"/>
+<property name="inputBinding" value="mi_in/unit"/>
+<property name="outputBinding" value="mi_out/unit"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="mi_value" type="InputText" id="74582427">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;value (mi)quot;"/>
+<property name="inputBinding" value="mi_in/value"/>
+<property name="outputBinding" value="mi_out/value"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="0" name="mi_itemType" type="InputText" id="1248743935">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;itemType (mi)quot;"/>
+<property name="inputBinding" value="mi_in/itemType"/>
+<property name="outputBinding" value="mi_out/itemType"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="mi_in" name="#0000A0" type="dataModelerEntry" outId="mi_out" value="com.mds.decisionsupport.MedicalItem" id="mi"/>
+</form>

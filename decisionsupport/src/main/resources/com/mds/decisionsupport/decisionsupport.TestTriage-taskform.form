@@ -1,0 +1,57 @@
+
+<form id="109361829">
+<property name="subject" value=""/>
+<property name="name" value="decisionsupport.TestTriage-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="2" name="mr_gender" type="InputText" id="2034031915">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;gender (mr)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="mr/gender"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="mr_firstName" type="InputText" id="577017799">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;firstName (mr)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="mr/firstName"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="5" name="mr_medicalItems" type="MultipleSubform" id="923049381">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;medicalItems (mr)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="mr/medicalItems"/>
+<property name="fieldClass" value="java.util.List"/>
+</field>
+<field position="4" name="mr_mail" type="InputText" id="2141861412">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;mail (mr)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="mr/mail"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="0" name="mr_birthDate" type="InputDate" id="1802907671">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;birthDate (mr)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="mr/birthDate"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="3" name="mr_lastName" type="InputText" id="527493922">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;lastName (mr)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="mr/lastName"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="6" name="mr_phoneNumber" type="InputText" id="1397952552">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;phoneNumber (mr)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="mr/phoneNumber"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder name="#0000A0" type="dataModelerEntry" outId="mr" value="com.mds.decisionsupport.MedicalRecord" id="mr"/>
+</form>
