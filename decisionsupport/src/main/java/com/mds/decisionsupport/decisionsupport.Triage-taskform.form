@@ -1,8 +1,0 @@
-
-<form id="1397204609">
-<property name="subject" value=""/>
-<property name="name" value="decisionsupport.Triage-taskform.form"/>
-<property name="displayMode" value="default"/>
-<property name="status" value="0"/>
-<dataHolder inputId="" name="#0000A0" type="dataModelerEntry" outId="mr" value="com.mds.decisionsupport.MedicalRecord" id="mr"/>
-</form>
