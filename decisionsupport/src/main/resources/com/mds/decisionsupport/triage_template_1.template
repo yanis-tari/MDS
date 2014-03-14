@@ -26,17 +26,6 @@
         <constraintList>
           <constraints>
             <fieldConstraint>
-              <operator>!= null</operator>
-              <constraintValueType>0</constraintValueType>
-              <expression>
-                <parts/>
-              </expression>
-              <parameters/>
-              <factType>MedicalItem</factType>
-              <fieldName>bioportalItem</fieldName>
-              <fieldType>BioportalItem</fieldType>
-            </fieldConstraint>
-            <fieldConstraint>
               <value>$Snomed_id_1</value>
               <operator>==</operator>
               <constraintValueType>7</constraintValueType>
@@ -44,10 +33,9 @@
                 <parts/>
               </expression>
               <parameters/>
-              <factType>BioportalItem</factType>
-              <fieldName>id</fieldName>
+              <factType>MedicalItem</factType>
+              <fieldName>snomecCTuri</fieldName>
               <fieldType>String</fieldType>
-              <parent class="fieldConstraint" reference="../../fieldConstraint"/>
               <connectives>
                 <connectiveConstraint>
                   <value>$Snomed_id_2</value>
@@ -57,8 +45,8 @@
                     <parts/>
                   </expression>
                   <parameters/>
-                  <factType>BioportalItem</factType>
-                  <fieldName>id</fieldName>
+                  <factType>MedicalItem</factType>
+                  <fieldName>snomecCTuri</fieldName>
                   <fieldType>String</fieldType>
                 </connectiveConstraint>
                 <connectiveConstraint>
@@ -69,8 +57,8 @@
                     <parts/>
                   </expression>
                   <parameters/>
-                  <factType>BioportalItem</factType>
-                  <fieldName>id</fieldName>
+                  <factType>MedicalItem</factType>
+                  <fieldName>snomecCTuri</fieldName>
                   <fieldType>String</fieldType>
                 </connectiveConstraint>
                 <connectiveConstraint>
@@ -81,8 +69,8 @@
                     <parts/>
                   </expression>
                   <parameters/>
-                  <factType>BioportalItem</factType>
-                  <fieldName>id</fieldName>
+                  <factType>MedicalItem</factType>
+                  <fieldName>snomecCTuri</fieldName>
                   <fieldType>String</fieldType>
                 </connectiveConstraint>
                 <connectiveConstraint>
@@ -93,8 +81,8 @@
                     <parts/>
                   </expression>
                   <parameters/>
-                  <factType>BioportalItem</factType>
-                  <fieldName>id</fieldName>
+                  <factType>MedicalItem</factType>
+                  <fieldName>snomecCTuri</fieldName>
                   <fieldType>String</fieldType>
                 </connectiveConstraint>
                 <connectiveConstraint>
@@ -105,8 +93,8 @@
                     <parts/>
                   </expression>
                   <parameters/>
-                  <factType>BioportalItem</factType>
-                  <fieldName>id</fieldName>
+                  <factType>MedicalItem</factType>
+                  <fieldName>snomecCTuri</fieldName>
                   <fieldType>String</fieldType>
                 </connectiveConstraint>
                 <connectiveConstraint>
@@ -117,8 +105,8 @@
                     <parts/>
                   </expression>
                   <parameters/>
-                  <factType>BioportalItem</factType>
-                  <fieldName>id</fieldName>
+                  <factType>MedicalItem</factType>
+                  <fieldName>snomecCTuri</fieldName>
                   <fieldType>String</fieldType>
                 </connectiveConstraint>
                 <connectiveConstraint>
@@ -129,8 +117,8 @@
                     <parts/>
                   </expression>
                   <parameters/>
-                  <factType>BioportalItem</factType>
-                  <fieldName>id</fieldName>
+                  <factType>MedicalItem</factType>
+                  <fieldName>snomecCTuri</fieldName>
                   <fieldType>String</fieldType>
                 </connectiveConstraint>
                 <connectiveConstraint>
@@ -141,8 +129,8 @@
                     <parts/>
                   </expression>
                   <parameters/>
-                  <factType>BioportalItem</factType>
-                  <fieldName>id</fieldName>
+                  <factType>MedicalItem</factType>
+                  <fieldName>snomecCTuri</fieldName>
                   <fieldType>String</fieldType>
                 </connectiveConstraint>
                 <connectiveConstraint>
@@ -153,8 +141,8 @@
                     <parts/>
                   </expression>
                   <parameters/>
-                  <factType>BioportalItem</factType>
-                  <fieldName>id</fieldName>
+                  <factType>MedicalItem</factType>
+                  <fieldName>snomecCTuri</fieldName>
                   <fieldType>String</fieldType>
                 </connectiveConstraint>
                 <connectiveConstraint>
@@ -165,8 +153,8 @@
                     <parts/>
                   </expression>
                   <parameters/>
-                  <factType>BioportalItem</factType>
-                  <fieldName>id</fieldName>
+                  <factType>MedicalItem</factType>
+                  <fieldName>snomecCTuri</fieldName>
                   <fieldType>String</fieldType>
                 </connectiveConstraint>
                 <connectiveConstraint>
@@ -177,8 +165,8 @@
                     <parts/>
                   </expression>
                   <parameters/>
-                  <factType>BioportalItem</factType>
-                  <fieldName>id</fieldName>
+                  <factType>MedicalItem</factType>
+                  <fieldName>snomecCTuri</fieldName>
                   <fieldType>String</fieldType>
                 </connectiveConstraint>
               </connectives>
