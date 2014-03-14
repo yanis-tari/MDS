@@ -9,16 +9,6 @@ public class MedicalItem  implements java.io.Serializable {
 static final long serialVersionUID = 1L;
     
     @org.kie.api.definition.type.Key
-    @org.kie.api.definition.type.Label(value = "Bioportal item")
-    @org.kie.api.definition.type.Position(value = 2)
-    private com.mds.decisionsupport.BioportalItem bioportalItem;
-    
-    @org.kie.api.definition.type.Key
-    @org.kie.api.definition.type.Label(value = "Bioportal item encoded in json")
-    @org.kie.api.definition.type.Position(value = 3)
-    private java.lang.String bioportalItemJson;
-    
-    @org.kie.api.definition.type.Key
     @org.kie.api.definition.type.Label(value = "Date")
     @org.kie.api.definition.type.Position(value = 1)
     private java.util.Date date;
@@ -30,51 +20,43 @@ static final long serialVersionUID = 1L;
     
     @org.kie.api.definition.type.Key
     @org.kie.api.definition.type.Label(value = "Snomed-CT uri")
-    @org.kie.api.definition.type.Position(value = 7)
+    @org.kie.api.definition.type.Position(value = 4)
     private java.lang.String snomecCTuri;
     
     @org.kie.api.definition.type.Key
-    @org.kie.api.definition.type.Label(value = "snomed clinical term")
-    @org.kie.api.definition.type.Position(value = 6)
-    private java.util.List<com.mds.decisionsupport.SnomedCT> snomedCT;
-    
-    @org.kie.api.definition.type.Key
     @org.kie.api.definition.type.Label(value = "Snomed-CT definitions")
-    @org.kie.api.definition.type.Position(value = 10)
+    @org.kie.api.definition.type.Position(value = 7)
     private java.lang.String snomedCTdefinitions;
     
     @org.kie.api.definition.type.Key
     @org.kie.api.definition.type.Label(value = "Snomed-CT description preferred")
-    @org.kie.api.definition.type.Position(value = 8)
+    @org.kie.api.definition.type.Position(value = 5)
     private java.lang.String snomedCTdescriptionPreferred;
     
     @org.kie.api.definition.type.Description(value = "snomed-CT synonyms comma separated")
     @org.kie.api.definition.type.Key
     @org.kie.api.definition.type.Label(value = "Snomed-CT synonyms")
-    @org.kie.api.definition.type.Position(value = 9)
+    @org.kie.api.definition.type.Position(value = 6)
     private java.lang.String snomedCTsynonyms;
     
     @org.kie.api.definition.type.Key
     @org.kie.api.definition.type.Label(value = "Unit")
-    @org.kie.api.definition.type.Position(value = 5)
+    @org.kie.api.definition.type.Position(value = 3)
     private java.lang.String unit;
     
     @org.kie.api.definition.type.Key
     @org.kie.api.definition.type.Label(value = "Value")
-    @org.kie.api.definition.type.Position(value = 4)
+    @org.kie.api.definition.type.Position(value = 2)
     private java.lang.String value;
 
     public MedicalItem() {
     }
 
-    public MedicalItem(java.lang.String itemType, java.util.Date date, com.mds.decisionsupport.BioportalItem bioportalItem, java.lang.String bioportalItemJson, java.lang.String value, java.lang.String unit, java.util.List<com.mds.decisionsupport.SnomedCT> snomedCT, java.lang.String snomecCTuri, java.lang.String snomedCTdescriptionPreferred, java.lang.String snomedCTsynonyms, java.lang.String snomedCTdefinitions) {
+    public MedicalItem(java.lang.String itemType, java.util.Date date, java.lang.String value, java.lang.String unit, java.lang.String snomecCTuri, java.lang.String snomedCTdescriptionPreferred, java.lang.String snomedCTsynonyms, java.lang.String snomedCTdefinitions) {
         this.itemType = itemType;
         this.date = date;
-        this.bioportalItem = bioportalItem;
-        this.bioportalItemJson = bioportalItemJson;
         this.value = value;
         this.unit = unit;
-        this.snomedCT = snomedCT;
         this.snomecCTuri = snomecCTuri;
         this.snomedCTdescriptionPreferred = snomedCTdescriptionPreferred;
         this.snomedCTsynonyms = snomedCTsynonyms;
@@ -82,22 +64,6 @@ static final long serialVersionUID = 1L;
     }
 
 
-    
-    public com.mds.decisionsupport.BioportalItem getBioportalItem() {
-        return this.bioportalItem;
-    }
-
-    public void setBioportalItem(  com.mds.decisionsupport.BioportalItem bioportalItem ) {
-        this.bioportalItem = bioportalItem;
-    }
-    
-    public java.lang.String getBioportalItemJson() {
-        return this.bioportalItemJson;
-    }
-
-    public void setBioportalItemJson(  java.lang.String bioportalItemJson ) {
-        this.bioportalItemJson = bioportalItemJson;
-    }
     
     public java.util.Date getDate() {
         return this.date;
@@ -121,14 +87,6 @@ static final long serialVersionUID = 1L;
 
     public void setSnomecCTuri(  java.lang.String snomecCTuri ) {
         this.snomecCTuri = snomecCTuri;
-    }
-    
-    public java.util.List<com.mds.decisionsupport.SnomedCT> getSnomedCT() {
-        return this.snomedCT;
-    }
-
-    public void setSnomedCT(  java.util.List<com.mds.decisionsupport.SnomedCT> snomedCT ) {
-        this.snomedCT = snomedCT;
     }
     
     public java.lang.String getSnomedCTdefinitions() {
@@ -176,12 +134,9 @@ static final long serialVersionUID = 1L;
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         com.mds.decisionsupport.MedicalItem that = (com.mds.decisionsupport.MedicalItem)o;
-        if (bioportalItem != null ? !bioportalItem.equals(that.bioportalItem) : that.bioportalItem != null) return false;
-        if (bioportalItemJson != null ? !bioportalItemJson.equals(that.bioportalItemJson) : that.bioportalItemJson != null) return false;
         if (date != null ? !date.equals(that.date) : that.date != null) return false;
         if (itemType != null ? !itemType.equals(that.itemType) : that.itemType != null) return false;
         if (snomecCTuri != null ? !snomecCTuri.equals(that.snomecCTuri) : that.snomecCTuri != null) return false;
-        if (snomedCT != null ? !snomedCT.equals(that.snomedCT) : that.snomedCT != null) return false;
         if (snomedCTdefinitions != null ? !snomedCTdefinitions.equals(that.snomedCTdefinitions) : that.snomedCTdefinitions != null) return false;
         if (snomedCTdescriptionPreferred != null ? !snomedCTdescriptionPreferred.equals(that.snomedCTdescriptionPreferred) : that.snomedCTdescriptionPreferred != null) return false;
         if (snomedCTsynonyms != null ? !snomedCTsynonyms.equals(that.snomedCTsynonyms) : that.snomedCTsynonyms != null) return false;
@@ -193,12 +148,9 @@ static final long serialVersionUID = 1L;
     @Override
     public int hashCode() {
         int result = 17;
-        result = 13 * result + (bioportalItem != null ? bioportalItem.hashCode() : 0);
-        result = 13 * result + (bioportalItemJson != null ? bioportalItemJson.hashCode() : 0);
         result = 13 * result + (date != null ? date.hashCode() : 0);
         result = 13 * result + (itemType != null ? itemType.hashCode() : 0);
         result = 13 * result + (snomecCTuri != null ? snomecCTuri.hashCode() : 0);
-        result = 13 * result + (snomedCT != null ? snomedCT.hashCode() : 0);
         result = 13 * result + (snomedCTdefinitions != null ? snomedCTdefinitions.hashCode() : 0);
         result = 13 * result + (snomedCTdescriptionPreferred != null ? snomedCTdescriptionPreferred.hashCode() : 0);
         result = 13 * result + (snomedCTsynonyms != null ? snomedCTsynonyms.hashCode() : 0);
