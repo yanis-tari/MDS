@@ -3,7 +3,9 @@ package com.mds.ontologyaccess.manager;
 import java.text.ParseException;
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import virtuoso.jena.driver.VirtGraph;
 import virtuoso.jena.driver.VirtuosoQueryExecution;
@@ -20,7 +22,6 @@ import com.hp.hpl.jena.rdf.model.Model;
 import com.hp.hpl.jena.util.iterator.ExtendedIterator;
 import com.mds.decisionsupport.MedicalItem;
 import com.mds.decisionsupport.MedicalRecord;
-import com.mds.decisionsupport.SnomedCT;
 import com.mds.ontologyaccess.rdf.MDSNode;
 public class VirtuosoQueryManager {
 	private VirtGraph graph;
@@ -211,11 +212,9 @@ public class VirtuosoQueryManager {
 				}
 
 			}
-			if(mi.getSnomedCT() != null ){
-				List<SnomedCT> snomedCTList = mi.getSnomedCT();
-				for (SnomedCT snomedCT : snomedCTList) {
-					graph.add(Triple.create(miNode, MDSNode.hasSnomedConceptObjectProperty, Node.createURI(snomedCT.getUri())));		
-				}
+			if(mi.getSnomecCTuri() != null ){
+				
+				graph.add(Triple.create(miNode, MDSNode.hasSnomedConceptObjectProperty, Node.createURI(mi.getSnomecCTuri())));
 								
 			}
 			
@@ -244,16 +243,17 @@ public class VirtuosoQueryManager {
  	 //   Select a snomedCT term from the ontology and instanciate a new java snomedCt object  ///
 	/////////////////////////////////////////////////////////////////////////////////////////////
 	
-	public List<com.mds.decisionsupport.SnomedCT> selectSnomedCT(String uriMi){				
+	public Map<String, String> selectSnomedCT(String uriMi){				
 		
-		List<com.mds.decisionsupport.SnomedCT> snomedCtList = new ArrayList<SnomedCT>();
+
+		Map<String, String> map = new HashMap<String, String>();
 		ExtendedIterator<Triple> snomedConcept = graph.find(Node.createURI(uriMi), MDSNode.hasSnomedConceptObjectProperty, Node.ANY);
 		while(snomedConcept.hasNext()){
 			Triple snomedCTriple = snomedConcept.next();
 			Node sct = snomedCTriple.getObject();
 
 			
-			String descriptionPreferred = null;
+//			String descriptionPreferred = null;
 			String descriptionSynonyms = "";
 			String definition = "";
 			
@@ -261,15 +261,16 @@ public class VirtuosoQueryManager {
 			for(;prefLList.hasNext();){				
 				Triple t = prefLList.next();					
 				Node objectNode = t.getObject();
-				
-				descriptionPreferred = (String)objectNode.getLiteralValue();	
+				map.put("descriptionPreferred", (String)objectNode.getLiteralValue());
+//				descriptionPreferred = (String)objectNode.getLiteralValue();	
 			}			
 			ExtendedIterator<Triple> defList = graph.find(sct, MDSNode.TextDefinition_term, Node.ANY);
 			
 			for(;defList.hasNext();){				
-					definition+="<p>"+((String) defList.next().getObject().getLiteralValue())+"</p>";						
+					definition+="<p>"+((String) defList.next().getObject().getLiteralValue())+"</p>";
+					
 			}
-			
+			map.put("definitions", definition);
 			ExtendedIterator<Triple> synList = graph.find(sct,MDSNode.Description_term_en_us_synonym, Node.ANY);
 			Boolean first = true;
 			for(;synList.hasNext();){	
@@ -280,11 +281,13 @@ public class VirtuosoQueryManager {
 					descriptionSynonyms+=", "+((String)synList.next().getObject().getLiteralValue());
 				}				
 			}
-			descriptionSynonyms= "<p>"+descriptionSynonyms+"</p>";
+			map.put("descriptionSynonyms", "<p>"+descriptionSynonyms+"</p>");
+//			descriptionSynonyms= "<p>"+descriptionSynonyms+"</p>";
 			
-			snomedCtList.add(new com.mds.decisionsupport.SnomedCT(sct.getURI(), descriptionPreferred, descriptionSynonyms, definition));				
+//			snomedCtList.add(new com.mds.decisionsupport.SnomedCT(sct.getURI(), descriptionPreferred, descriptionSynonyms, definition));				
 		}
-		return snomedCtList;		
+//		return snomedCtList;
+		return map;
 	}
 	
 	  //////////////////////////////////////////////////////////////////////////////////////////////////
@@ -337,8 +340,18 @@ public class VirtuosoQueryManager {
 			if(unit.hasNext()){
 				mi.setUnit(((String)unit.next().getObject().getLiteralValue()));
 			}
+			Map<String, String> map = selectSnomedCT(miNode.getURI());
+			if(map.containsKey("descriptionPreferred")){				
+				mi.setSnomedCTdescriptionPreferred(map.get("descriptionPreferred"));				
+			}
+			if(map.containsKey("definitions")){				
+				mi.setSnomedCTdefinitions(map.get("definitions"));				
+			}
+			if(map.containsKey("descriptionSynonyms")){				
+				mi.setSnomedCTsynonyms(map.get("descriptionSynonyms"));				
+			}
 			
-			mi.setSnomedCT(selectSnomedCT(miNode.getURI()));
+//			mi.setSnomedCT(selectSnomedCT(miNode.getURI()));
 		miList.add(mi);
 		}
 		
