@@ -2,36 +2,10 @@
 <form id="351325692">
 <property name="subject" value=""/>
 <property name="name" value="Line_MedicalItem.form"/>
-<property name="displayMode" value="default"/>
+<property name="displayMode" value="aligned"/>
+<property name="labelMode" value="undefined"/>
 <property name="status" value="0"/>
-<field position="4" name="mi_snomedCT" type="MultipleSubform" id="1440891007">
-<property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="false"/>
-<property name="labelCSSClass" value=""/>
-<property name="labelCSSStyle" value=""/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;snomedCT (mi)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="readonly" value="false"/>
-<property name="styleclass" value=""/>
-<property name="cssStyle" value=""/>
-<property name="inputBinding" value="mi_in/snomedCT"/>
-<property name="outputBinding" value="mi_out/snomedCT"/>
-<property name="defaultSubform" value="SnomedCT.form"/>
-<property name="previewSubform" value="SnomedCT.form"/>
-<property name="tableSubform" value="SnomedCT.form"/>
-<property name="newItemText" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="addItemText" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="cancelItemText" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="deleteItems" value="false"/>
-<property name="updateItems" value="false"/>
-<property name="visualizeItems" value="false"/>
-<property name="hideCreateItem" value="false"/>
-<property name="expanded" value="false"/>
-<property name="enableTableEnterData" value="false"/>
-<property name="fieldClass" value="java.util.List"/>
-</field>
-<field position="3" name="mi_date" type="InputDate" id="563752296">
+<field position="7" name="mi_date" type="InputDate" id="105133069">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;enquot;,quot;date (mi)quot;"/>
@@ -39,7 +13,75 @@
 <property name="outputBinding" value="mi_out/date"/>
 <property name="fieldClass" value="java.util.Date"/>
 </field>
-<field position="2" name="mi_unit" type="InputText" id="592959897">
+<field position="0" name="mi_itemType" type="InputText" id="82295106">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;itemType (mi)quot;"/>
+<property name="inputBinding" value="mi_in/itemType"/>
+<property name="outputBinding" value="mi_out/itemType"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="mi_snomecCTuri" type="InputText" id="2030044904">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;snomecCTuri (mi)quot;"/>
+<property name="inputBinding" value="mi_in/snomecCTuri"/>
+<property name="outputBinding" value="mi_out/snomecCTuri"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="mi_snomedCTdefinitions" type="InputText" id="1852217993">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;snomedCTdefinitions (mi)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value=""/>
+<property name="pattern" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="isHTML" value="true"/>
+<property name="hideContent" value="false"/>
+<property name="defaultValueFormula" value=""/>
+<property name="inputBinding" value="mi_in/snomedCTdefinitions"/>
+<property name="outputBinding" value="mi_out/snomedCTdefinitions"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="mi_snomedCTdescriptionPreferred" type="InputText" id="1157633575">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;snomedCTdescriptionPreferred (mi)quot;"/>
+<property name="inputBinding" value="mi_in/snomedCTdescriptionPreferred"/>
+<property name="outputBinding" value="mi_out/snomedCTdescriptionPreferred"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="4" name="mi_snomedCTsynonyms" type="InputText" id="1666549690">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;snomedCTsynonyms (mi)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value=""/>
+<property name="pattern" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="isHTML" value="true"/>
+<property name="hideContent" value="false"/>
+<property name="defaultValueFormula" value=""/>
+<property name="inputBinding" value="mi_in/snomedCTsynonyms"/>
+<property name="outputBinding" value="mi_out/snomedCTsynonyms"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="6" name="mi_unit" type="InputText" id="680035099">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;enquot;,quot;unit (mi)quot;"/>
@@ -47,20 +89,12 @@
 <property name="outputBinding" value="mi_out/unit"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="1" name="mi_value" type="InputText" id="74582427">
+<field position="5" name="mi_value" type="InputText" id="1715702145">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;enquot;,quot;value (mi)quot;"/>
 <property name="inputBinding" value="mi_in/value"/>
 <property name="outputBinding" value="mi_out/value"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="0" name="mi_itemType" type="InputText" id="1248743935">
-<property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;enquot;,quot;itemType (mi)quot;"/>
-<property name="inputBinding" value="mi_in/itemType"/>
-<property name="outputBinding" value="mi_out/itemType"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <dataHolder inputId="mi_in" name="#0000A0" type="dataModelerEntry" outId="mi_out" value="com.mds.decisionsupport.MedicalItem" id="mi"/>
