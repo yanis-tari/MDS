@@ -2,9 +2,144 @@
 <form id="351325692">
 <property name="subject" value=""/>
 <property name="name" value="Line_MedicalItem.form"/>
-<property name="displayMode" value="aligned"/>
+<property name="displayMode" value="template"/>
 <property name="labelMode" value="undefined"/>
 <property name="status" value="0"/>
+<property name="formTemplate" value="&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;1%&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td align=&quot;left&quot; colspan=&quot;1&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;12%&quot;&gt;
+			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-351325692-mi_itemType_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{mi_itemType}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td valign=&quot;top&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-351325692-mi_itemType_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{mi_itemType}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+			&lt;td align=&quot;left&quot; colspan=&quot;1&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;12%&quot;&gt;
+			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-351325692-mi_snomecCTuri_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{mi_snomecCTuri}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td valign=&quot;top&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-351325692-mi_snomecCTuri_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{mi_snomecCTuri}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+			&lt;td align=&quot;left&quot; colspan=&quot;1&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;12%&quot;&gt;
+			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-351325692-mi_snomedCTdescriptionPreferred_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{mi_snomedCTdescriptionPreferred}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td valign=&quot;top&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-351325692-mi_snomedCTdescriptionPreferred_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{mi_snomedCTdescriptionPreferred}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+			&lt;td align=&quot;left&quot; colspan=&quot;1&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;12%&quot;&gt;
+			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-351325692-mi_snomedCTdefinitions_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{mi_snomedCTdefinitions}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td valign=&quot;top&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-351325692-mi_snomedCTdefinitions_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{mi_snomedCTdefinitions}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+			&lt;td align=&quot;left&quot; colspan=&quot;1&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;12%&quot;&gt;
+			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-351325692-mi_snomedCTsynonyms_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{mi_snomedCTsynonyms}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td valign=&quot;top&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-351325692-mi_snomedCTsynonyms_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{mi_snomedCTsynonyms}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+			&lt;td align=&quot;left&quot; colspan=&quot;1&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;12%&quot;&gt;
+			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-351325692-mi_value_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{mi_value}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td valign=&quot;top&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-351325692-mi_value_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{mi_value}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+			&lt;td align=&quot;left&quot; colspan=&quot;1&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;12%&quot;&gt;
+			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-351325692-mi_unit_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{mi_unit}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td valign=&quot;top&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-351325692-mi_unit_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{mi_unit}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+			&lt;td align=&quot;left&quot; colspan=&quot;1&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;12%&quot;&gt;
+			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-351325692-mi_date_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{mi_date}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td valign=&quot;top&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-351325692-mi_date_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{mi_date}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+"/>
 <field position="7" name="mi_date" type="InputDate" id="105133069">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
@@ -14,9 +149,23 @@
 <property name="fieldClass" value="java.util.Date"/>
 </field>
 <field position="0" name="mi_itemType" type="InputText" id="82295106">
-<property name="fieldRequired" value="false"/>
+<property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;enquot;,quot;itemType (mi)quot;"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Item typequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value="{motif,Motif;subjective,Subjective;objective,Objective;diagnostic,Diagnostic;action,Action;vitalSign,Vital sign}"/>
+<property name="pattern" value=""/>
+<property name="styleclass" value="itemTypeClass skn-input"/>
+<property name="cssStyle" value=""/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="defaultValueFormula" value=""/>
 <property name="inputBinding" value="mi_in/itemType"/>
 <property name="outputBinding" value="mi_out/itemType"/>
 <property name="fieldClass" value="java.lang.String"/>
@@ -44,7 +193,7 @@
 <property name="pattern" value=""/>
 <property name="styleclass" value=""/>
 <property name="cssStyle" value=""/>
-<property name="isHTML" value="true"/>
+<property name="isHTML" value="false"/>
 <property name="hideContent" value="false"/>
 <property name="defaultValueFormula" value=""/>
 <property name="inputBinding" value="mi_in/snomedCTdefinitions"/>
@@ -74,7 +223,7 @@
 <property name="pattern" value=""/>
 <property name="styleclass" value=""/>
 <property name="cssStyle" value=""/>
-<property name="isHTML" value="true"/>
+<property name="isHTML" value="false"/>
 <property name="hideContent" value="false"/>
 <property name="defaultValueFormula" value=""/>
 <property name="inputBinding" value="mi_in/snomedCTsynonyms"/>
