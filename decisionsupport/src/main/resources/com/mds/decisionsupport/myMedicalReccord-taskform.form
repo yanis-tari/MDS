@@ -138,9 +138,9 @@
 <property name="cssStyle" value=""/>
 <property name="inputBinding" value="mr_in/medicalItems"/>
 <property name="outputBinding" value="mr_out/medicalItems"/>
-<property name="defaultSubform" value="Line_MedicalItem.form"/>
-<property name="previewSubform" value="Line_MedicalItem.form"/>
-<property name="tableSubform" value="Line_MedicalItem.form"/>
+<property name="defaultSubform" value="default_line_medical_Item.form"/>
+<property name="previewSubform" value="default_line_medical_Item.form"/>
+<property name="tableSubform" value="default_line_medical_Item.form"/>
 <property name="newItemText" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="addItemText" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="cancelItemText" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
