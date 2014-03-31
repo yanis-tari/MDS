@@ -4,4 +4,45 @@
 <property name="name" value="default_line_medical_Item.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
+<field position="4" name="mi_date" type="InputDate" id="926480023">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;date (mi)quot;"/>
+<property name="inputBinding" value="mi_in/date"/>
+<property name="outputBinding" value="mi_out/date"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="0" name="mi_itemType" type="InputText" id="478248556">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;itemType (mi)quot;"/>
+<property name="inputBinding" value="mi_in/itemType"/>
+<property name="outputBinding" value="mi_out/itemType"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="mi_snomecCTuri" type="InputText" id="957989128">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;snomecCTuri (mi)quot;"/>
+<property name="inputBinding" value="mi_in/snomecCTuri"/>
+<property name="outputBinding" value="mi_out/snomecCTuri"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="mi_unit" type="InputText" id="958044143">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;unit (mi)quot;"/>
+<property name="inputBinding" value="mi_in/unit"/>
+<property name="outputBinding" value="mi_out/unit"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="mi_value" type="InputText" id="1608270171">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;value (mi)quot;"/>
+<property name="inputBinding" value="mi_in/value"/>
+<property name="outputBinding" value="mi_out/value"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="mi_in" name="#0000A0" type="dataModelerEntry" outId="mi_out" value="com.mds.decisionsupport.MedicalItem" id="mi"/>
 </form>
