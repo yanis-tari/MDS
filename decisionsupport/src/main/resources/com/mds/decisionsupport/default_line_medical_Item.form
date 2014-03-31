@@ -2,8 +2,125 @@
 <form id="1178006817">
 <property name="subject" value=""/>
 <property name="name" value="default_line_medical_Item.form"/>
-<property name="displayMode" value="default"/>
+<property name="displayMode" value="template"/>
+<property name="labelMode" value="undefined"/>
 <property name="status" value="0"/>
+<property name="formTemplate" value="
+            &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;1%&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td align=&quot;left&quot; colspan=&quot;5&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;25%&quot;&gt;
+			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-1178006817-mi_itemType_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{mi_itemType}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td valign=&quot;top&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-1178006817-mi_itemType_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{mi_itemType}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+			&lt;td align=&quot;left&quot; colspan=&quot;5&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;25%&quot;&gt;
+			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-1178006817-mi_value_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{mi_value}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td valign=&quot;top&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-1178006817-mi_value_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{mi_value}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+			&lt;td align=&quot;left&quot; colspan=&quot;5&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;25%&quot;&gt;
+			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-1178006817-mi_unit_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{mi_unit}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td valign=&quot;top&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-1178006817-mi_unit_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{mi_unit}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+			&lt;td align=&quot;left&quot; colspan=&quot;5&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;25%&quot;&gt;
+			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-1178006817-mi_date_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{mi_date}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td valign=&quot;top&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-1178006817-mi_date_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{mi_date}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td align=&quot;left&quot; colspan=&quot;4&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;20%&quot;&gt;
+			&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-1178006817-927624255_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{927624255}&lt;/div&gt;
+						&lt;/td&gt;
+                                                &lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-1178006817-mi_snomecCTuri_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{mi_snomecCTuri}&lt;/div&gt;
+						&lt;/td&gt;
+                                                &lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-1178006817-mi_snomedCTdescriptionPreferred_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{mi_snomedCTdescriptionPreferred}&lt;/div&gt;
+						&lt;/td&gt;
+                                                &lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-1178006817-mi_snomedCTdefinitions_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{mi_snomedCTdefinitions}&lt;/div&gt;
+						&lt;/td&gt;
+                                               	&lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-1178006817-mi_snomedCTsynonyms_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{mi_snomedCTsynonyms}&lt;/div&gt;
+						&lt;/td&gt;
+					
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td valign=&quot;top&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-1178006817-927624255_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{927624255}&lt;/div&gt;
+						&lt;/td&gt;
+                                                &lt;td valign=&quot;top&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-1178006817-mi_snomecCTuri_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{mi_snomecCTuri}&lt;/div&gt;
+						&lt;/td&gt;
+                                                &lt;td valign=&quot;top&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-1178006817-mi_snomedCTdescriptionPreferred_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{mi_snomedCTdescriptionPreferred}&lt;/div&gt;
+						&lt;/td&gt;
+                                                &lt;td valign=&quot;top&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-1178006817-mi_snomedCTdefinitions_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{mi_snomedCTdefinitions}&lt;/div&gt;
+						&lt;/td&gt;
+                                                &lt;td valign=&quot;top&quot;&gt;
+						&lt;div id=&quot;uid_-template_null-1178006817-mi_snomedCTsynonyms_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{mi_snomedCTsynonyms}&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+			
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+"/>
 <field position="0" name="mi_itemType" type="InputText" id="478248556">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
