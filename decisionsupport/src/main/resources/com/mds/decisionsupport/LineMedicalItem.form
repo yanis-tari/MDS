@@ -2,41 +2,13 @@
 <form id="1985099774">
 <property name="subject" value=""/>
 <property name="name" value="LineMedicalItem.form"/>
-<property name="displayMode" value="template"/>
+<property name="displayMode" value="aligned"/>
 <property name="labelMode" value="undefined"/>
 <property name="status" value="0"/>
 <property name="formTemplate" value="&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;1%&quot;&gt;  &lt;tbody&gt;   &lt;tr&gt;    &lt;td align=&quot;left&quot; colspan=&quot;1&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;20%&quot;&gt;    &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;     &lt;tbody&gt;      &lt;tr&gt;       &lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;       &lt;div id=&quot;uid_-template_null-1985099774-mi_itemType_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{mi_itemType}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;      &lt;tr&gt;       &lt;td valign=&quot;top&quot;&gt;       &lt;div id=&quot;uid_-template_null-1985099774-mi_itemType_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{mi_itemType}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;     &lt;/tbody&gt;    &lt;/table&gt;    &lt;/td&gt;    &lt;td align=&quot;left&quot; colspan=&quot;1&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;20%&quot;&gt;    &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;     &lt;tbody&gt;      &lt;tr&gt;       &lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;       &lt;div id=&quot;uid_-template_null-1985099774-mi_bioportalItemJson_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{mi_bioportalItemJson}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;      &lt;tr&gt;       &lt;td valign=&quot;top&quot;&gt;       &lt;div id=&quot;uid_-template_null-1985099774-mi_bioportalItemJson_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{mi_bioportalItemJson}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;     &lt;/tbody&gt;    &lt;/table&gt;    &lt;/td&gt;    &lt;td align=&quot;left&quot; colspan=&quot;1&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;20%&quot;&gt;    &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; class=&quot;itemValue&quot;&gt;     &lt;tbody&gt;      &lt;tr&gt;       &lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;       &lt;div id=&quot;uid_-template_null-1985099774-mi_value_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{mi_value}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;      &lt;tr&gt;       &lt;td valign=&quot;top&quot;&gt;       &lt;div id=&quot;uid_-template_null-1985099774-mi_value_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{mi_value}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;     &lt;/tbody&gt;    &lt;/table&gt;    &lt;/td&gt;    &lt;td align=&quot;left&quot; colspan=&quot;1&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;20%&quot;&gt;    &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; class=&quot;itemUnit&quot;&gt;     &lt;tbody&gt;      &lt;tr&gt;       &lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;       &lt;div id=&quot;uid_-template_null-1985099774-mi_unit_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{mi_unit}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;      &lt;tr&gt;       &lt;td valign=&quot;top&quot;&gt;       &lt;div id=&quot;uid_-template_null-1985099774-mi_unit_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{mi_unit}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;     &lt;/tbody&gt;    &lt;/table&gt;    &lt;/td&gt;    &lt;td align=&quot;left&quot; colspan=&quot;1&quot; style=&quot;height:100%; &quot; valign=&quot;top&quot; width=&quot;20%&quot;&gt;    &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;     &lt;tbody&gt;      &lt;tr&gt;       &lt;td nowrap=&quot;nowrap&quot; valign=&quot;top&quot; width=&quot;1%&quot;&gt;       &lt;div id=&quot;uid_-template_null-1985099774-mi_date_label_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$label{mi_date}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;      &lt;tr&gt;       &lt;td valign=&quot;top&quot;&gt;       &lt;div id=&quot;uid_-template_null-1985099774-mi_date_container&quot; style=&quot;padding-top: 3px; padding-right:3px;&quot;&gt;$field{mi_date}&lt;/div&gt;       &lt;/td&gt;      &lt;/tr&gt;     &lt;/tbody&gt;    &lt;/table&gt;    &lt;/td&gt;   &lt;/tr&gt;  &lt;/tbody&gt; &lt;/table&gt; &lt;script&gt;  $(function() { $(&quot;.itemUnit&quot;).hide( ); $(&quot;.itemValue&quot;).hide( );  $(&quot;.itemTypeClass&quot;).change(function() { if($(this).val() == &quot;vitalSign&quot; ){   $(&quot;.itemUnit&quot;).show(&quot;clip&quot;, 500);   $(&quot;.itemValue&quot;).show(&quot;clip&quot;, 500);    }else{    $(&quot;.itemUnit&quot;).hide(&quot;clip&quot;, 500);    $(&quot;.itemValue&quot;).hide(&quot;clip&quot;, 500);    }      });  });   &lt;/script&gt;"/>
-<field position="0" name="mi_bioportalItemJson" type="CustomInput" id="680319595">
-<property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="false"/>
-<property name="labelCSSClass" value=""/>
-<property name="labelCSSStyle" value=""/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Medical termquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="readonly" value="false"/>
-<property name="size" value=""/>
-<property name="formula" value=""/>
-<property name="rangeFormula" value=""/>
-<property name="pattern" value=""/>
-<property name="styleclass" value=""/>
-<property name="cssStyle" value=""/>
-<property name="isHTML" value="false"/>
-<property name="hideContent" value="false"/>
-<property name="defaultValueFormula" value=""/>
-<property name="inputBinding" value="_mi/bioportalItemJson"/>
-<property name="outputBinding" value="mi_/bioportalItemJson"/>
-<property name="customFieldType" value="com.maidis.custom.field.form.BioportalRestClientField"/>
-<property name="fieldClass" value="java.lang.String"/>
-<property name="param1" value=""/>
-<property name="param2" value=""/>
-<property name="param3" value=""/>
-<property name="param4" value=""/>
-<property name="param5" value=""/>
-</field>
-<field position="1" name="mi_itemType" type="InputText" id="1151166051">
+<field position="0" name="mi_itemType" type="InputText" id="1151166051">
 <property name="fieldRequired" value="true"/>
-<property name="groupWithPrevious" value="true"/>
+<property name="groupWithPrevious" value="false"/>
 <property name="labelCSSClass" value=""/>
 <property name="labelCSSStyle" value=""/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Typequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -117,6 +89,14 @@
 <property name="inputBinding" value="_mi/date"/>
 <property name="outputBinding" value="mi_/date"/>
 <property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="1" name="mi_snomecCTuri" type="InputText" id="722559709">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;snomecCTuri (mi)quot;"/>
+<property name="inputBinding" value="_mi/snomecCTuri"/>
+<property name="outputBinding" value="mi_/snomecCTuri"/>
+<property name="fieldClass" value="java.lang.String"/>
 </field>
 <dataHolder inputId="_mi" name="#0000A0" type="dataModelerEntry" outId="mi_" value="com.mds.decisionsupport.MedicalItem" id="mi"/>
 </form>
